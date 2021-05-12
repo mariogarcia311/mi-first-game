@@ -1,0 +1,48 @@
+/* Se define las caracteriticas de la fuente para cada tipo de elemento*/
+h1{
+    font-family:"Bauhaus 93";/* Se define la fuente utilizada para este elemento*/
+    color:black; /*Define el color del texto*/
+    font-size:60px; /*Tamaño de letra*/
+    line-height:10px; /*Altura del renglon*/
+    text-align: center; /*Centra el Texto*/
+}
+h2{
+    font-family:"RomanticChicago", sans-serif;/* Se define la fuente utilizada para este elemento*/
+    margin:0; /*Define 0 de margen en todos los lados*/
+    color:black; /*Define el color del texto*/
+    font-size:40px; /*Tamaño de letra*/
+    margin-top:5px; /*Valor de margen inferior*/
+    text-align: center; /*Centra el Texto*/
+}
+
+body{
+    background-image: url("imagenes/fondopantalla.jpg"); /*Define el color del fondo*/
+    color:#0A2126; /*Define el color del texto*/
+}
+div.pantallajuego{
+    margin: auto; /*Define el margen automatico en todos los lados*/
+    width: 60%;
+    max-width: 60%; /*Ancho maximo del div*/
+}
+@media only screen and (max-width: 800px) {
+	h1{
+		font-size: 40px;/*se disminuyeel tamaño de la letra*/ 
+	}
+	
+	h2{
+		font-size: 30px;
+}
+
+	@media only screen and (max-width: 500px){
+
+	h1{
+		font-size: 35px;/*se disminuyeel tamaño de la letra*/ 
+	}
+	
+	h2{
+		font-size: 38px;
+		}
+		    Body{
+        background-image:url("imagenes/azul.jpg");	/*pone un fonde más sencillo para celulares de baja capacidad*/
+          }
+	}

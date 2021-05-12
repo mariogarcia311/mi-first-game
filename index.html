@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+    
+    <meta charset="UTF-8"> <!--Usar de caracteres en español-->
+    <meta lang="es"> <!--Idioma a utilizar en español-->
+    <meta name="viewport" content="width=device-width; initial-scale=1.0"> <!--Ocupación de la pantalla del telófono completa-->
+    <script src="java/phaser.js"></script> <!--Vincuación de la libreria Phaser-->
+    <script src="java/menu.js"></script> <!--Vinculación de los archivos js del juego en orden de llamada-->
+    <script src="java/lose.js"></script>
+   <script src="java/level1.js"></script>
+    <script src="java/level2.js"></script>
+    <script src="java/level3.js"></script>
+    <script src="java/end.js"></script>
+    <script src="java/estados.js"></script> <!--Archivo para creación estados es el último en cargar-->
+    <link href="estilos.css" rel="stylesheet" type="text/css"> <!--VInculación hoja de estilos-->
+    <title>esquiva balas</title> <!--Titulo de la pestaña-->
+</head>
+
+<body>
+	<!-- CONSTA DE UN JUEGO CON 3 NIVELES, EL PRIMERO TRATA DE CAPTURAR MONEDAS HASTA LLEGAR A 10 (CANBIA AL LVL 2), EL SEGUNDO NIVEL TRATA DE CAPTURAR 10 MONEDAS PERO ESQUIVANDO MISILES EN DONDE LOS MISILES RESTAN PUNTOS Y PUEDEN ACABAR CON EL JUEGO CUANDO EL PUNTAJE ES MENOR A 0, EL TERCER NIVEL TRATA DE LLEGAR A 10 PUNTO EN DONDE NO SE DEBE DEBE DEJAR DISMINUIR LA VIDA HASTA 0 EN DONDE HAY UN CAMBIO DE ESCENARIO Y SE PIERDE (SI SE ESQUIVAN LOS 10 MISILES HAY UN CAMBIO DE ESCENARIO EN DONDE SE GANA) -->
+    <h1>esquiva balass</h1> <!--Título del juego-->
+    <div id="juegoM" class= "pantallajuego"></div><!-- Se crea un div para incluir la ventana del Phaser.Gmae  --> 
+     <center><marquee width="40%" direction="left" height="150px"><h2>Realizado por Mario Alfonso García Márquez</h2></marquee></center>
+
+</body>
+</html>
